@@ -1,0 +1,84 @@
+.header{
+    background-color:cornflowerblue;
+    color: white;
+    margin: 6px;
+    text-decoration: none;
+    border: 10px hidden;
+    padding: 5px;
+    font-size: 30px;
+}
+.Hero{
+    background-color: red;
+    color: white;
+    margin: 6px;
+    border: 10px hidden;
+    height: 150px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.Content{
+    background-color: green;
+    color: white;
+    margin: 6px;
+    border: 10px hidden;
+    height: 250px;
+    padding: 5px;
+    font-size: 30px;
+    /* display: inline-block; */
+}
+
+.sidebar{
+
+    background-color: rebeccapurple;
+    color: white;
+    margin: 6px;
+    margin-top: -0.5px;
+    border: 10px hidden;
+    height: 150px;
+    padding: 5px;
+    font-size: 30px;
+
+
+    /* display: inline-block; */
+}
+
+.footer{
+    background-color: grey;
+    color: white;
+    margin: 6px;
+    border: 10px hidden;
+    height: 50px;
+    padding: 5px;
+    font-size: 30px;
+
+}
+
+.box{
+    border: 2px solid;
+    width: 350px;
+    margin:auto
+}
+
+@media screen and (min-width: 640px) {
+   
+    .whatever {
+        display: flex;
+    }
+
+    .sidebar{
+        flex-grow: 1;
+        margin-left: -1px;
+        height: 350px;
+    }
+
+    .Content{
+        flex-grow: 2;
+        margin-top: -1px;
+        height: 350px;
+    }
+
+    .footer{
+        margin-top: 0px;
+    }
+  }
